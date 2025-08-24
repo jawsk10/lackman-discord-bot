@@ -116,12 +116,6 @@ Todos os direitos autorais pertencem ao autor (GitHub: jawsk10).
 Não é permitido o uso, cópia ou redistribuição sem autorização explícita.
 
 ---
-📞 Contato
-
-GitHub: jawsk10
-Discord: jawsk
-
----
 📜 Licença
 
 Este projeto é proprietário.
