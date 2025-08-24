@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="" alt="Lackman Logo" width="150"/>
+  <img src="https://raw.githubusercontent.com/jawsk10/nome-do-repositorio/main/assets/logo.png" alt="Lackman Logo" width="150"/>
   <br>
   Lackman
 </h1>
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="">
+  <a href="https://discord.com/oauth2/authorize?client_id=SEU_CLIENT_ID&scope=bot&permissions=8">
     <img src="https://img.shields.io/badge/Adicione_ao_seu_Servidor-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Adicionar ao Servidor">
   </a>
 </p>
@@ -17,7 +17,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/license/jawsk10/nome-do-repositorio" alt="License">
   <img src="https://img.shields.io/github/last-commit/jawsk10/nome-do-repositorio" alt="Last Commit">
-  <img src="https://img.shields.io/badge/autor-jawsk-blue" alt="Author">
+  <img src="https://img.shields.io/badge/Autor-jawsk10-blue" alt="Author">
 </p>
 
 ---
@@ -27,7 +27,7 @@
 - [📖 Sobre o Projeto](#-sobre-o-projeto)
 - [✨ Funcionalidades](#-funcionalidades)
 - [🤖 Comandos](#-comandos)
-- [🛠️ Em Desenvolvimento](#️-em-desenvolvimento)
+- [🛠️ Em Desenvolvimento](#-em-desenvolvimento)
 - [📜 Licença e Direitos Autorais](#-licença-e-direitos-autorais)
 - [📞 Contato](#-contato)
 
@@ -35,7 +35,8 @@
 
 ## 📖 Sobre o Projeto
 
-**Lackman** é um bot para Discord projetado para ser uma solução completa e intuitiva de gerenciamento de servidores. Com foco em **segurança**, **moderação** e **comandos úteis**, ele utiliza a moderna interação de **slash commands (/)** para garantir uma experiência de usuário rápida e eficiente.
+**Lackman** é um bot para Discord projetado para ser uma solução completa e intuitiva de gerenciamento de servidores.  
+Com foco em **segurança**, **moderação** e **comandos úteis**, ele utiliza a moderna interação de **slash commands (/)** para garantir uma experiência de usuário rápida e eficiente.
 
 Desenvolvido do zero para ser **único e exclusivo**, o Lackman oferece uma administração de servidor robusta e confiável.
 
@@ -61,13 +62,13 @@ O Lackman foi equipado com um conjunto de comandos poderosos para facilitar a ad
 
 Todos os comandos são executados utilizando a barra `/`.
 
-| Comando       | Descrição                                         | Categoria   |
-| :------------ | :------------------------------------------------ | :---------- |
+| Comando       | Descrição                                           | Categoria   |
+| :------------ | :-------------------------------------------------- | :---------- |
 | `/ban`        | Bane permanentemente um membro do servidor.         | Moderação   |
 | `/kick`       | Expulsa um membro do servidor.                      | Moderação   |
 | `/warn`       | Aplica uma advertência a um membro.                 | Moderação   |
 | `/userinfo`   | Exibe informações detalhadas sobre um usuário.      | Segurança   |
-| `/serverinfo` | Mostra informações completas sobre o servidor.    | Segurança   |
+| `/serverinfo` | Mostra informações completas sobre o servidor.      | Segurança   |
 | `/clear`      | Limpa uma quantidade definida de mensagens.         | Utilidades  |
 | `/help`       | Lista todos os comandos disponíveis e suas funções. | Utilidades  |
 | `/ping`       | Testa a latência e o tempo de resposta do bot.      | Utilidades  |
@@ -76,7 +77,9 @@ Todos os comandos são executados utilizando a barra `/`.
 
 ## 🛠️ Em Desenvolvimento
 
-O Lackman está em constante evolução! A funcionalidade de **Logs Automáticos** está sendo desenvolvida para aprimorar ainda mais a segurança e o monitoramento de atividades no servidor. Fique atento para mais novidades!
+O Lackman está em constante evolução!  
+A funcionalidade de **Logs Automáticos** está sendo desenvolvida para aprimorar ainda mais a segurança e o monitoramento de atividades no servidor.  
+Fique atento para mais novidades!
 
 ---
 
@@ -86,7 +89,8 @@ Este projeto é **proprietário**.
 
 Todo o código-fonte, design e funcionalidades do Lackman são de propriedade intelectual de **Jawsk** ([@jawsk10](https://github.com/jawsk10)) e protegidos por direitos autorais.
 
-É estritamente proibida a cópia, modificação, redistribuição ou uso comercial de qualquer parte deste projeto sem autorização prévia e explícita do autor. Para mais detalhes, consulte o arquivo `LICENSE` no repositório.
+É estritamente proibida a cópia, modificação, redistribuição ou uso comercial de qualquer parte deste projeto sem autorização prévia e explícita do autor.  
+Para mais detalhes, consulte o arquivo `LICENSE` no repositório.
 
 ---
 
@@ -94,5 +98,5 @@ Todo o código-fonte, design e funcionalidades do Lackman são de propriedade in
 
 Precisa de ajuda ou quer dar um feedback?
 
-- **GitHub:** [jawsk10](https://github.com/jawsk10)
-- **Discord:** jawsk
+- **GitHub:** [jawsk10](https://github.com/jawsk10)  
+- **Discord:** `jawsk`
