@@ -17,6 +17,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/license/jawsk10/lackman-discord-bot" alt="License">
   <img src="https://img.shields.io/github/last-commit/jawsk10/lackman-discord-bot" alt="Last Commit">
+  <img src="https://img.shields.io/github/package-json/v/jawsk10/lackman-discord-bot?filename=package.json&style=flat-square" alt="Versão Atual">
   <img src="https://img.shields.io/badge/Autor-jawsk10-blue" alt="Author">
 </p>
 
@@ -96,4 +97,7 @@ Para mais detalhes, consulte o arquivo `LICENSE` no repositório.
 
 ## 📞 Contato
 
-Precisa de ajuda ou quer dar um feedback
+Precisa de ajuda ou quer dar um feedback?
+
+- **GitHub:** [jawsk10](https://github.com/jawsk10)  
+- **Discord:** `jawsk`
