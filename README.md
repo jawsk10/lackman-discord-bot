@@ -12,7 +12,7 @@
 
 ## 📋 Índice
 
-- [📖 Sobre o Projeto](##-sobre-o-projeto)
+- [📖 Sobre o Projeto](#-sobre-o-projeto)
 - [✨ Funcionalidades](#-funcionalidades)
 - [🤖 Comandos Detalhados](#-comandos-detalhados)
 - [📜 Licença e Direitos Autorais](#-licença-e-direitos-autorais)
