@@ -1,7 +1,7 @@
 {
-  "name": "music-bot",
+  "name": "lackman-discord-bot",
   "version": "1.0.0",
-  "description": "Bot de música para Discord",
+  "description": "Um bot para Discord moderno e multifuncional, focado em segurança, moderação e utilidades.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,8 +23,8 @@
     "dev": "npm run deps:check && npm start"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "jawsk10",
+  "license": "UNLICENSED",
   "dependencies": {
     "discord.js": "^14.21.0",
     "dotenv": "^17.2.1"
