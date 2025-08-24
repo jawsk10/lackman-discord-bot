@@ -82,9 +82,3 @@ Não é permitido o uso, cópia, modificação ou redistribuição de qualquer p
 - **Discord:** jawsk
 
 ---
-
-## 🛡️ Direitos Autorais
-
-Todo o código e funcionalidades do Lackman foram desenvolvidos do zero por Jawsk.
-Todos os direitos autorais pertencem ao autor (GitHub: jawsk10).
-Não é permitido o uso, cópia ou redistribuição sem autorização explícita.
