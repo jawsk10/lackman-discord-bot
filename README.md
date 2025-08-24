@@ -81,12 +81,9 @@ Não é permitido o uso, cópia, modificação ou redistribuição de qualquer p
 - **GitHub:** [jawsk10](https://github.com/jawsk10)
 - **Discord:** jawsk
 
-# Lackman
+---
 
-**Lackman** é um bot de **Discord** moderno, baseado em **slash commands (/)**, criado para oferecer **segurança**, **moderação** e **utilidades** de forma rápida e eficiente.  
-Feito do zero para ser **único e exclusivo**, todos os direitos autorais pertencem ao autor deste repositório.
-
-🛡️ Direitos Autorais
+## 🛡️ Direitos Autorais
 
 Todo o código e funcionalidades do Lackman foram desenvolvidos do zero por Jawsk.
 Todos os direitos autorais pertencem ao autor (GitHub: jawsk10).
