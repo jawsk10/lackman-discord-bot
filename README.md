@@ -89,13 +89,6 @@ Todo o código e funcionalidades do Lackman foram desenvolvidos do zero por Jaws
 Todos os direitos autorais pertencem ao autor (GitHub: jawsk10).
 Não é permitido o uso, cópia ou redistribuição sem autorização explícita.
 
----
-📜 Licença
-
-Este projeto é proprietário.
-Todos os direitos reservados.
-Consulte o arquivo LICENSE para mais detalhes.
-
 ```markdown
 ![License](https://img.shields.io/badge/license-Proprietary-red)
 ![Author](https://img.shields.io/badge/author-jawsk10-blue)
