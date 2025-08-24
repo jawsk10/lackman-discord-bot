@@ -14,9 +14,6 @@
 
 - [📖 Sobre o Projeto](#-sobre-o-projeto)
 - [✨ Funcionalidades](#-funcionalidades)
-- [🚀 Começando a Usar](#-começando-a-usar)
-  - [Pré-requisitos](#pré-requisitos)
-  - [Instalação](#instalação)
 - [🤖 Comandos Detalhados](#-comandos-detalhados)
 - [📜 Licença e Direitos Autorais](#-licença-e-direitos-autorais)
 - [📞 Contato](#-contato)
