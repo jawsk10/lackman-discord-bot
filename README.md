@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center">Lackman</h1>
 
 <p align="center">
@@ -135,4 +134,3 @@ Consulte o arquivo LICENSE para mais detalhes.
 ```markdown
 ![License](https://img.shields.io/badge/license-Proprietary-red)
 ![Author](https://img.shields.io/badge/author-jawsk10-blue)
->>>>>>> 5d17c3a7184dc7f9955946a1c83a22c9e98e94db
