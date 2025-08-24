@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/jawsk10/nome-do-repositorio/main/assets/logo.png" alt="Lackman Logo" width="150"/>
+  <img src="https://raw.githubusercontent.com/jawsk10/lackman-discord-bot/main/assets/logo.png" alt="Lackman Logo" width="150"/>
   <br>
   Lackman
 </h1>
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/jawsk10/lackman-discord-bot/blob/main/LICENSE" alt="License">
+  <img src="https://img.shields.io/github/license/jawsk10/lackman-discord-bot" alt="License">
   <img src="https://img.shields.io/github/last-commit/jawsk10/lackman-discord-bot" alt="Last Commit">
   <img src="https://img.shields.io/badge/Autor-jawsk10-blue" alt="Author">
 </p>
@@ -96,7 +96,4 @@ Para mais detalhes, consulte o arquivo `LICENSE` no repositório.
 
 ## 📞 Contato
 
-Precisa de ajuda ou quer dar um feedback?
-
-- **GitHub:** [jawsk10](https://github.com/jawsk10)  
-- **Discord:** `jawsk`
+Precisa de ajuda ou quer dar um feedback
