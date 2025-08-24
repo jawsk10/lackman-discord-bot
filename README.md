@@ -86,12 +86,10 @@ Fique atento para mais novidades!
 
 ## 📜 Licença e Direitos Autorais
 
-Este projeto é **proprietário**.
-
+Este projeto é **proprietário**.  
 Todo o código-fonte, design e funcionalidades do Lackman são de propriedade intelectual de **Jawsk** ([@jawsk10](https://github.com/jawsk10)) e protegidos por direitos autorais.
 
-É estritamente proibida a cópia, modificação, redistribuição ou uso comercial de qualquer parte deste projeto sem autorização prévia e explícita do autor.  
-Para mais detalhes, consulte o arquivo `LICENSE` no repositório.
+📌 Consulte o arquivo [`LICENSE`](./LICENSE) para mais detalhes.
 
 ---
 
