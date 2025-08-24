@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/jawsk10/nome-do-repositorio" alt="License">
-  <img src="https://img.shields.io/github/last-commit/jawsk10/nome-do-repositorio" alt="Last Commit">
+  <img src="https://img.shields.io/github/license/jawsk10/lackman-discord-bot" alt="License">
+  <img src="https://img.shields.io/github/last-commit/jawsk10/lackman-discord-bot" alt="Last Commit">
   <img src="https://img.shields.io/badge/Autor-jawsk10-blue" alt="Author">
 </p>
 
