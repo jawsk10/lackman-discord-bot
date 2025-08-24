@@ -80,5 +80,3 @@ Não é permitido o uso, cópia, modificação ou redistribuição de qualquer p
 
 - **GitHub:** [jawsk10](https://github.com/jawsk10)
 - **Discord:** jawsk
-
----
