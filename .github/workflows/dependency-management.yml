@@ -1,0 +1,50 @@
+name: Dependency Management
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Toda segunda-feira às 00:00
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  dependency-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Check for outdated dependencies
+      run: |
+        # Verifica dependências desatualizadas sem package-lock
+        npm outdated --json || true
+        # Executa seu script de verificação
+        npm run deps:check
+    
+    - name: Audit dependencies
+      run: npm run deps:audit
+    
+    - name: Create issue if outdated
+      if: failure() && github.event_name == 'schedule'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: '🔄 Dependências desatualizadas detectadas',
+            body: 'O check de dependências detectou pacotes desatualizados no projeto.\n\n' +
+                  'Execute `npm run deps:update` para atualizar as dependências.\n\n' +
+                  '**Data do alerta:** ' + new Date().toISOString().split('T')[0] +
+                  '\n**Commit:** ' + context.sha.substring(0, 7) +
+                  '\n\nVerifique os logs da execução para detalhes completos.'
+          });
