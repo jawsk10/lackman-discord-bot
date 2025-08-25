@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://discord.com/oauth2/authorize?client_id=SEU_CLIENT_ID&scope=bot&permissions=8">
+  <a href="https://discord.com/oauth2/authorize?client_id=1388777543615778909&scope=bot+identify+guilds+email+applications.commands&permissions=2080374975">
     <img src="https://img.shields.io/badge/Adicione_ao_seu_Servidor-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Adicionar ao Servidor">
   </a>
 </p>
