@@ -38,3 +38,4 @@ logs/
 # Arquivos específicos para ignorar
 comandos-auto-update-master.md
 installation.md
+eslint-use.md

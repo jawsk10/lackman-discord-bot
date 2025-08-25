@@ -17,6 +17,8 @@
     "deploy-guild": "node deploy-guild-commands.js",
     "remove-commands": "node remove-commands.js",
     "check-commands": "node check-commands.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "postinstall": "npm run deps:audit",
     "prestart": "npm run deps:install && npm run security-check",
     "start": "node index.js",
