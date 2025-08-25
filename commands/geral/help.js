@@ -42,7 +42,7 @@ module.exports = {
                 `📚 **Discord.js:** v${version}`,
                 `🤖 **Node.js:** ${nodeVersion}`,
                 `👨‍💻 **Creator:** Jawsk`,
-                `🏷️ **Bot Version:** 1.1.0`
+                `🏷️ **Bot Version:** 1.0.0`
             ].join('\n'), inline: false }
         );
 
