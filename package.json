@@ -1,0 +1,35 @@
+{
+  "name": "lackman-discord-bot",
+  "version": "1.0.0",
+  "description": "Um bot para Discord moderno e multifuncional, focado em segurança, moderação e utilidades.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deps:check": "node src/utils/update-deps.js check",
+    "deps:update": "node src/utils/update-deps.js update",
+    "deps:audit": "node src/utils/update-deps.js audit",
+    "deps:install": "node src/utils/update-deps.js install",
+    "deps:clean": "node src/utils/update-deps.js clean",
+    "deps:backup": "node src/utils/update-deps.js backup",
+    "deps:verify": "node src/utils/update-deps.js verify",
+    "security-check": "node src/utils/security-check.js",
+    "deploy": "node deploy-commands.js",
+    "deploy-guild": "node deploy-guild-commands.js",
+    "remove-commands": "node remove-commands.js",
+    "check-commands": "node check-commands.js",
+    "postinstall": "npm run deps:audit",
+    "prestart": "npm run deps:install && npm run security-check",
+    "start": "node index.js",
+    "dev": "npm run deps:check && npm start"
+  },
+  "keywords": [],
+  "author": "jawsk10",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0"
+  }
+}
