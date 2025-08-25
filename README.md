@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/jawsk10/lackman-discord-bot/main/assets/logo.png" alt="Lackman Logo" width="150"/>
+  <img src="https://raw.githubusercontent.com/jawsk10/lackman-discord-bot/main/assets/logo.jpg" alt="Lackman Logo" width="150"/>
   <br>
   Lackman
 </h1>
