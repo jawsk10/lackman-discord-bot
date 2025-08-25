@@ -31,36 +31,21 @@ jobs:
       run: npm run deps:audit
     
     - name: Create issue if outdated
-      if: always()
       uses: actions/github-script@v6
       with:
         script: |
           const { execSync } = require('child_process');
           try {
-            const outdated = execSync('npm outdated --json', { encoding: 'utf8' });
-            const data = JSON.parse(outdated || '{}');
-            
-            if (Object.keys(data).length > 0) {
-              const issues = await github.rest.issues.listForRepo({
+            const outdated = execSync('npm run deps:check --silent', { encoding: 'utf8' });
+            if (outdated.includes('📦 Dependências desatualizadas:')) {
+              github.rest.issues.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                state: 'open'
+                title: '🔄 Dependências desatualizadas detectadas',
+                body: 'O workflow detectou que existem dependências que precisam ser atualizadas.\n\n' +
+                      'Verifique os logs da execução para mais detalhes.'
               });
-              
-              const hasExistingIssue = issues.data.some(issue => 
-                issue.title.includes('Dependencies Update Required')
-              );
-              
-              if (!hasExistingIssue) {
-                await github.rest.issues.create({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  title: '🚀 Dependencies Update Required',
-                  body: `The following dependencies need updating:\n\n\`\`\`json\n${JSON.stringify(data, null, 2)}\n\`\`\``,
-                  labels: ['dependencies', 'automation']
-                });
-              }
             }
           } catch (error) {
-            console.log('No outdated dependencies');
+            console.log('⚠️ Não foi possível verificar dependências desatualizadas.');
           }
