@@ -28,7 +28,6 @@
 - [📖 Sobre o Projeto](#-sobre-o-projeto)
 - [✨ Funcionalidades](#-funcionalidades)
 - [🤖 Comandos](#-comandos)
-- [🛠️ Em Desenvolvimento](#-em-desenvolvimento)
 - [📜 Licença e Direitos Autorais](#-licença-e-direitos-autorais)
 - [📞 Contato](#-contato)
 
@@ -73,14 +72,6 @@ Todos os comandos são executados utilizando a barra `/`.
 | `/clear`      | Limpa uma quantidade definida de mensagens.         | Utilidades  |
 | `/help`       | Lista todos os comandos disponíveis e suas funções. | Utilidades  |
 | `/ping`       | Testa a latência e o tempo de resposta do bot.      | Utilidades  |
-
----
-
-## 🛠️ Em Desenvolvimento
-
-O Lackman está em constante evolução!  
-A funcionalidade de **Logs Automáticos** está sendo desenvolvida para aprimorar ainda mais a segurança e o monitoramento de atividades no servidor.  
-Fique atento para mais novidades!
 
 ---
 
